@@ -1,0 +1,10 @@
+Project Overview
+This project allows users to upload their name and an image through a web form. The image is stored in Amazon S3, and the user's name along with the image URL is saved in an Amazon RDS database. The backend is powered by PHP.
+
+Install this PHP-AWS APK 
+AWS APK Commands
+
+sudo curl -sS https://getcomposer.org/installer | sudo php
+sudo mv composer.phar /usr/local/bin/composer
+sudo ln -s /usr/local/bin/composer /usr/bin/composer
+sudo composer require aws/aws-sdk-php
