@@ -1,0 +1,17 @@
+# WordPress with MySQL Docker Setup on AWS EC2
+
+This project demonstrates how to deploy WordPress with a MySQL database using Docker containers on an AWS EC2 instance.
+
+---
+
+## 🚀 EC2 Setup Instructions
+
+### 1. **Launch an EC2 Instance**
+- Choose an EC2 instance (e.g., t2.micro for testing).
+- Use **Ubuntu** or **Amazon Linux** as the OS.
+- Assign a **public IP** (Elastic IP if necessary) to access the instance.
+
+### 2. **SSH into Your EC2 Instance**
+Open a terminal and use the following command to SSH into your EC2 instance:
+```bash
+ssh -i "your-key.pem" ubuntu@your-ec2-public-ip
