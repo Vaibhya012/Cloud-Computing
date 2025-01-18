@@ -3,7 +3,7 @@ Resources:
     Type: "AWS::EC2::Instance"
     Properties:
       InstanceType: t2.micro
-      ImangeId: ami-0d2614eafc1b0e4d2
+      ImageId: ami-0d2614eafc1b0e4d2
       Tags:
         - Key: Name
           Value: MySimpleInstance
