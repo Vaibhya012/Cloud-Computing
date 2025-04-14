@@ -3,7 +3,7 @@ marks = [95,85,76,94,74.5,87]
 print(marks)
 print(marks[0])
 print(marks[2])
-print("len of List", len(marks))
+print("lenth of List", len(marks))
 # marks[4] = "Vaishnavi"
 print(marks)
 print(marks[1:4])

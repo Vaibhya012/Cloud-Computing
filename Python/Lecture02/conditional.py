@@ -6,8 +6,9 @@
 # else:{
 #     print("Unvaliad")
 # }
- 
-light = "yellow"
+
+light = (input("Enter Color: "))
+# light = "yellow"
 
 if(light=="red"):
     print("STOP")
